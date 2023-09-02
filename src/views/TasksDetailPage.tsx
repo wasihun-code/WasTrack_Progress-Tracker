@@ -2,10 +2,10 @@
 import { ChevronRight, ChevronDown } from '../assets/icons.js';
 import AddSubTaskForm from '../components/AddSubTaskForm.js';
 
-export default function TasksDetail() {
+export default function TasksDetailPage() {
   return (
     <div className="ml-4 border-red-300">
-      <h1 className="text-2xl font-bold text-green-200">Tasks detail</h1>
+      <h1 className="text-2xl font-bold">Tasks detail</h1>
       <div className="mt-5 flex flex-col gap-7 ">
         <div>
           <div className="flex items-center">

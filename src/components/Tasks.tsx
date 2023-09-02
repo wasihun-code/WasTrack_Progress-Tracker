@@ -8,7 +8,7 @@ export default function Tasks() {
       <div className="mt-5 flex flex-col gap-7 ">
         <div>
           <div className="flex items-center">
-            <Link to="task-detail">
+            <Link to="">
               <ChevronDown />
             </Link>
             <h1 className="text-2xl">Tasks</h1>
