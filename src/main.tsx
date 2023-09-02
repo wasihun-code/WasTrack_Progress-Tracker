@@ -1,5 +1,5 @@
 import './index.css';
-import App from './App.tsx';
+import App from './views/App.tsx';
 import ErrorPage from './components/LayoutComponents/error-page.tsx';
 import About from './views/About.tsx';
 import React from 'react';
@@ -25,6 +25,10 @@ const router = createBrowserRouter([
         element: <About />,
       },
       {
+        path: '/projects',
+        element: <Projects />,
+      },
+      {
         path: '/projects/:id',
         element: <ProjectPage />,
         children: [
@@ -37,10 +41,6 @@ const router = createBrowserRouter([
             element: <Stats />,
           },
         ],
-      },
-      {
-        path: '/projects',
-        element: <Projects />,
       },
     ],
   },

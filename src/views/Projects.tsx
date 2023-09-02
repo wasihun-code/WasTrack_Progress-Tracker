@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import ProjectCard from '../components/ProjectCard';
 
 /* eslint-disable react/react-in-jsx-scope */
@@ -11,11 +12,15 @@ export default function Projects() {
         <h1>Completed</h1>
       </div>
       <div className="grid grid-cols-4 justify-around">
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
+        <Link to="/projects/1">
+          <ProjectCard />
+        </Link>
+        <Link to="/projects/1">
+          <ProjectCard />
+        </Link>
+        <Link to="/projects/1">
+          <ProjectCard />
+        </Link>
       </div>
     </>
   );
