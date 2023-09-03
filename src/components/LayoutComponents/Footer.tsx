@@ -1,14 +1,10 @@
 /* eslint-disable react/react-in-jsx-scope */
 export default function Footer() {
   return (
-    // <div className="flex flex-row mx-auto m-4 p-4 justify-around">
-    //   <h1 className="w-1/2 font-bold text-2xl text-green-500">WasTrack</h1>
-    //   <footer className="items-center">Copyright &copy; 2023</footer>
-    // </div>
     <div className="flex flex-row bg-darkCyan p-11 mt-9 text-white border-2 border-black">
       <img
-        className="w-2/5 border-2 mx-auto "
-        src="../../assets/img/programmer.png"
+        className="w-2/5 border-2 mx-auto"
+        src="/src/assets/img/.png"
         alt="Your image goes here"
       />
       <div className="flex flex-col mx-auto ">
